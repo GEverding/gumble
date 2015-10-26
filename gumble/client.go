@@ -141,7 +141,7 @@ func (c *Client) AttachAudio(listener AudioListener) Detacher {
 
 // pingRoutine sends ping packets to the server at regular intervals.
 func (c *Client) pingRoutine() {
-	ticker := time.NewTicker(time.Second * 10)
+	ticker := time.NewTicker(time.Second * 3)
 	defer ticker.Stop()
 
 	pingPacket := MumbleProto.Ping{
