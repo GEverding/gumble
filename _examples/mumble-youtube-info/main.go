@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/layeh/gumble/gumble"
-	"github.com/layeh/gumble/gumbleutil"
+	"github.com/GEverding/gumble/gumble"
+	"github.com/GEverding/gumble/gumbleutil"
 )
 
 const responseTemplate = `
