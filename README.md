@@ -2,7 +2,7 @@
 
 ## Sub-projects
 
-- gumble [![GoDoc](https://godoc.org/github.com/layeh/gumble/gumble?status.svg)](https://godoc.org/github.com/layeh/gumble/gumble)
+- gumble [![GoDoc](https://godoc.org/github.com/GEverding/gumble/gumble?status.svg)](https://godoc.org/github.com/GEverding/gumble/gumble)
     - Client library
 - gumble_openal
     - [OpenAL](http://kcat.strangesoft.net/openal.html) audio system for gumble
@@ -16,8 +16,8 @@
     package main
 
     import (
-      "github.com/layeh/gumble/gumble"
-      "github.com/layeh/gumble/gumbleutil"
+      "github.com/GEverding/gumble/gumble"
+      "github.com/GEverding/gumble/gumbleutil"
     )
 
     func main() {
@@ -32,9 +32,9 @@
 
 ## Related projects
 
-- [barnard](https://github.com/layeh/barnard)
+- [barnard](https://github.com/GEverding/barnard)
     - terminal-based Mumble client
-- [piepan](https://github.com/layeh/piepan)
+- [piepan](https://github.com/GEverding/piepan)
     - an easy to use framework for writing scriptable Mumble bots using JavaScript and Lua
 
 ## License
@@ -43,4 +43,4 @@ MIT
 
 ## Author
 
-Tim Cooper (<tim.cooper@layeh.com>)
+Tim Cooper (<tim.cooper@GEverding.com>)
