@@ -410,9 +410,9 @@ func (c *Client) handleUserState(buffer []byte) error {
 
 			event.Type |= UserChangeConnected
 
-			if codec := c.audioCodec; codec != nil {
-				user.decoder = codec.NewDecoder()
-			}
+//			if codec := c.audioCodec; codec != nil {
+//				user.decoder = codec.NewDecoder()
+//			}
 
 			if user.Channel == nil {
 				return errInvalidProtobuf
